@@ -137,8 +137,13 @@ header {
   font-size: 1rem;
   text-align: center;
 }
+
 .hide{
   display: none;
+}
+
+.email-form__email-error{
+  border:2px solid var(--c-light-red);
 }
 
 

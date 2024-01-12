@@ -24,8 +24,10 @@ form.addEventListener("submit", (e) => {
     // form.insertAdjacentElement("afterend",error_message);
 
     error_message.classList.remove("hide");
+    input.classList.add('email-form__email-error');
   } else {
     error_message.classList.add("hide");
+    input.classList.remove('email-form__email-error');
     alert("Sucess sign up");
   }
 });

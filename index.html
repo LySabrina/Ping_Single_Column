@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./images/logo.svg" alt="Ping Logo" />
+      </header>
+      <div class="content">
+        <h1 class="content__title">We are launching <span>soon!</span></h1>
+        <p class="content__subtitle">Subscribe and get notified</p>
+        <form class="email-form">
+          <input
+            type="email"
+            class="email-form__email"
+            placeholder="Your email address..."
+          />
+
+          <button type="submit" class="email-form__btn">Notify Me</button>
+        </form>
+        <p class="error hide">Please provide a valid email address</p>
+      </div>
+
+      <div class="dashboard">
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="Dashboard"
+          class="dashboard__img"
+        />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__external">
+        <a href="" class="footer__external__link">
+          <img src="./images/facebook.svg" alt="Facebook" /> </a
+        ><a href="" class="footer__external__link">
+          <img src="./images/twitter.svg" alt="Twitter" /> </a
+        ><a href="" class="footer__external__link"
+          ><img src="./images/instagram.svg" alt="Instagram"
+        /></a>
+      </div>
+      <p class="footer__copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
